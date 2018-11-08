@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="HeaderProfileCell" id="iN0-l3-epB" customClass="HeaderProfileCell" customModule="DrawerAndTabar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="240"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="thH-1b-yU8">
+                    <rect key="frame" x="147.5" y="40" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="1Ma-Ih-R1I"/>
+                        <constraint firstAttribute="height" constant="80" id="Vty-4N-c63"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ravi K. Naum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBn-ae-dKB">
+                    <rect key="frame" x="137" y="130" width="101.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ios Developer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="By4-G5-AvW">
+                    <rect key="frame" x="146" y="155.5" width="83" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hFU-oh-Zef">
+                    <rect key="frame" x="150" y="179.5" width="75" height="25"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icHeart" translatesAutoresizingMaskIntoConstraints="NO" id="y7e-qH-xSA">
+                            <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="Gps-Uz-sQY"/>
+                                <constraint firstAttribute="width" constant="25" id="NYE-HD-MO6"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icMac" translatesAutoresizingMaskIntoConstraints="NO" id="Jf6-D1-eIX">
+                            <rect key="frame" x="45" y="0.0" width="30" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="GF6-AX-vPM"/>
+                                <constraint firstAttribute="width" constant="30" id="aiP-9r-aIb"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.35686274509803922" blue="0.76862745098039209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hFU-oh-Zef" firstAttribute="top" secondItem="By4-G5-AvW" secondAttribute="bottom" constant="8" id="Kdb-lv-ss4"/>
+                <constraint firstItem="thH-1b-yU8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Lt5-kx-4KK"/>
+                <constraint firstItem="thH-1b-yU8" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="40" id="Pe1-Cw-WOt"/>
+                <constraint firstItem="CBn-ae-dKB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="gWu-PI-4xZ"/>
+                <constraint firstItem="By4-G5-AvW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="h6G-PR-rqo"/>
+                <constraint firstItem="hFU-oh-Zef" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="hLv-Yb-ZzT"/>
+                <constraint firstItem="By4-G5-AvW" firstAttribute="top" secondItem="CBn-ae-dKB" secondAttribute="bottom" constant="5" id="mZ5-TB-AiC"/>
+                <constraint firstItem="CBn-ae-dKB" firstAttribute="top" secondItem="thH-1b-yU8" secondAttribute="bottom" constant="10" id="zLV-gI-sVd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="imageProfile" destination="thH-1b-yU8" id="ROx-vO-Mxt"/>
+                <outlet property="lblName" destination="CBn-ae-dKB" id="dxf-kk-Nvu"/>
+            </connections>
+            <point key="canvasLocation" x="39.200000000000003" y="46.776611694152926"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icHeart" width="80" height="80"/>
+        <image name="icMac" width="80" height="80"/>
+    </resources>
+</document>
