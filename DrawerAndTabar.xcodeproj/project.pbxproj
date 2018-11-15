@@ -30,6 +30,29 @@
 		8381ECCE2193DA3F0023F8CB /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECCD2193DA3F0023F8CB /* MessageViewController.swift */; };
 		8381ECD32193DB2B0023F8CB /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECD22193DB2B0023F8CB /* NotificationViewController.swift */; };
 		8381ECD62193DEF80023F8CB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECD52193DEF80023F8CB /* SettingViewController.swift */; };
+		83B252B6219D036C00C46D4B /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECC72192C1FB0023F8CB /* CommonFunction.swift */; };
+		83B252B7219D036C00C46D4B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECB92192928A0023F8CB /* MenuView.swift */; };
+		83B252B8219D036C00C46D4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381EC98219275BB0023F8CB /* ViewController.swift */; };
+		83B252B9219D036C00C46D4B /* MenuViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECC3219298F80023F8CB /* MenuViewCellTableViewCell.swift */; };
+		83B252BA219D036C00C46D4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381EC96219275BB0023F8CB /* AppDelegate.swift */; };
+		83B252BB219D036C00C46D4B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECD52193DEF80023F8CB /* SettingViewController.swift */; };
+		83B252BC219D036C00C46D4B /* UIView+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECCA2192C4D00023F8CB /* UIView+Extentions.swift */; };
+		83B252BD219D036C00C46D4B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECAB219278070023F8CB /* Constant.swift */; };
+		83B252BE219D036C00C46D4B /* HeaderProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECBF219293C80023F8CB /* HeaderProfileCell.swift */; };
+		83B252BF219D036C00C46D4B /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECB521927A400023F8CB /* Tabbar.swift */; };
+		83B252C0219D036C00C46D4B /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECD22193DB2B0023F8CB /* NotificationViewController.swift */; };
+		83B252C1219D036C00C46D4B /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECB121927A0A0023F8CB /* TabItem.swift */; };
+		83B252C2219D036C00C46D4B /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECCD2193DA3F0023F8CB /* MessageViewController.swift */; };
+		83B252C3219D036C00C46D4B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8381ECAD219279E60023F8CB /* HeaderView.swift */; };
+		83B252C6219D036C00C46D4B /* MenuViewCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8381ECC4219298F80023F8CB /* MenuViewCellTableViewCell.xib */; };
+		83B252C7219D036C00C46D4B /* HeaderProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8381ECC1219293E20023F8CB /* HeaderProfileCell.xib */; };
+		83B252C8219D036C00C46D4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8381EC9F219275BC0023F8CB /* LaunchScreen.storyboard */; };
+		83B252C9219D036C00C46D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8381EC9D219275BC0023F8CB /* Assets.xcassets */; };
+		83B252CA219D036C00C46D4B /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8381ECBB219292970023F8CB /* MenuView.xib */; };
+		83B252CB219D036C00C46D4B /* TabItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8381ECB321927A1A0023F8CB /* TabItem.xib */; };
+		83B252CC219D036C00C46D4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8381EC9A219275BB0023F8CB /* Main.storyboard */; };
+		83B252CD219D036C00C46D4B /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8381ECAF219279F50023F8CB /* HeaderView.xib */; };
+		83B252CE219D036C00C46D4B /* Tabbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8381ECB721927A4E0023F8CB /* Tabbar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,10 +81,19 @@
 		8381ECCD2193DA3F0023F8CB /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		8381ECD22193DB2B0023F8CB /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		8381ECD52193DEF80023F8CB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		83B252D2219D036C00C46D4B /* DrawerAndTabar-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DrawerAndTabar-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B252D3219D036C00C46D4B /* DrawerAndTabar copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DrawerAndTabar copy-Info.plist"; path = "/Users/ominext/Workspaces/DrawerAndTabar/DrawerAndTabar copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8381EC90219275BB0023F8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B252C4219D036C00C46D4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,6 +108,7 @@
 			children = (
 				8381EC95219275BB0023F8CB /* DrawerAndTabar */,
 				8381EC94219275BB0023F8CB /* Products */,
+				83B252D3219D036C00C46D4B /* DrawerAndTabar copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				8381EC93219275BB0023F8CB /* DrawerAndTabar.app */,
+				83B252D2219D036C00C46D4B /* DrawerAndTabar-dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,6 +244,23 @@
 			productReference = 8381EC93219275BB0023F8CB /* DrawerAndTabar.app */;
 			productType = "com.apple.product-type.application";
 		};
+		83B252B4219D036C00C46D4B /* DrawerAndTabar-dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B252CF219D036C00C46D4B /* Build configuration list for PBXNativeTarget "DrawerAndTabar-dev" */;
+			buildPhases = (
+				83B252B5219D036C00C46D4B /* Sources */,
+				83B252C4219D036C00C46D4B /* Frameworks */,
+				83B252C5219D036C00C46D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DrawerAndTabar-dev";
+			productName = DrawerAndTabar;
+			productReference = 83B252D2219D036C00C46D4B /* DrawerAndTabar-dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -239,6 +290,7 @@
 			projectRoot = "";
 			targets = (
 				8381EC92219275BB0023F8CB /* DrawerAndTabar */,
+				83B252B4219D036C00C46D4B /* DrawerAndTabar-dev */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +309,22 @@
 				8381EC9C219275BB0023F8CB /* Main.storyboard in Resources */,
 				8381ECB0219279F50023F8CB /* HeaderView.xib in Resources */,
 				8381ECB821927A4E0023F8CB /* Tabbar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B252C5219D036C00C46D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B252C6219D036C00C46D4B /* MenuViewCellTableViewCell.xib in Resources */,
+				83B252C7219D036C00C46D4B /* HeaderProfileCell.xib in Resources */,
+				83B252C8219D036C00C46D4B /* LaunchScreen.storyboard in Resources */,
+				83B252C9219D036C00C46D4B /* Assets.xcassets in Resources */,
+				83B252CA219D036C00C46D4B /* MenuView.xib in Resources */,
+				83B252CB219D036C00C46D4B /* TabItem.xib in Resources */,
+				83B252CC219D036C00C46D4B /* Main.storyboard in Resources */,
+				83B252CD219D036C00C46D4B /* HeaderView.xib in Resources */,
+				83B252CE219D036C00C46D4B /* Tabbar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +349,27 @@
 				8381ECB221927A0A0023F8CB /* TabItem.swift in Sources */,
 				8381ECCE2193DA3F0023F8CB /* MessageViewController.swift in Sources */,
 				8381ECAE219279E60023F8CB /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B252B5219D036C00C46D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B252B6219D036C00C46D4B /* CommonFunction.swift in Sources */,
+				83B252B7219D036C00C46D4B /* MenuView.swift in Sources */,
+				83B252B8219D036C00C46D4B /* ViewController.swift in Sources */,
+				83B252B9219D036C00C46D4B /* MenuViewCellTableViewCell.swift in Sources */,
+				83B252BA219D036C00C46D4B /* AppDelegate.swift in Sources */,
+				83B252BB219D036C00C46D4B /* SettingViewController.swift in Sources */,
+				83B252BC219D036C00C46D4B /* UIView+Extentions.swift in Sources */,
+				83B252BD219D036C00C46D4B /* Constant.swift in Sources */,
+				83B252BE219D036C00C46D4B /* HeaderProfileCell.swift in Sources */,
+				83B252BF219D036C00C46D4B /* Tabbar.swift in Sources */,
+				83B252C0219D036C00C46D4B /* NotificationViewController.swift in Sources */,
+				83B252C1219D036C00C46D4B /* TabItem.swift in Sources */,
+				83B252C2219D036C00C46D4B /* MessageViewController.swift in Sources */,
+				83B252C3219D036C00C46D4B /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +521,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-D DEBUG -D PRODUCTION";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.DrawerAndTabar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -449,6 +539,45 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-D PRODUCTION";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.DrawerAndTabar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83B252D0219D036C00C46D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CB7NDRZY49;
+				INFOPLIST_FILE = "DrawerAndTabar copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-D DEBUG -D DEV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.DrawerAndTabar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83B252D1219D036C00C46D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CB7NDRZY49;
+				INFOPLIST_FILE = "DrawerAndTabar copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-D DEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.DrawerAndTabar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -473,6 +602,15 @@
 			buildConfigurations = (
 				8381ECA6219275BC0023F8CB /* Debug */,
 				8381ECA7219275BC0023F8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B252CF219D036C00C46D4B /* Build configuration list for PBXNativeTarget "DrawerAndTabar-dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B252D0219D036C00C46D4B /* Debug */,
+				83B252D1219D036C00C46D4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

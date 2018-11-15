@@ -4,10 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DrawerAndTabar copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>DrawerAndTabar.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8381EC92219275BB0023F8CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>83B252B4219D036C00C46D4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

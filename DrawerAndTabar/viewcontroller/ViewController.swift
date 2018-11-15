@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Enviroments: \(Constant.BASE_API_URL)")
         // Do any additional setup after loading the view, typically from a nib.
         headerView.delegate = self
         tabbar.delegate = self
